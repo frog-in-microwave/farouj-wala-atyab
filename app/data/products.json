@@ -1,0 +1,326 @@
+{
+  "categories": [
+    {
+      "id": "grilled-chicken",
+      "order": 1,
+      "name": {
+        "en": "Grilled Chicken",
+        "ar": "الفروج المشوي"
+      }
+    },
+    {
+      "id": "sandwiches",
+      "order": 2,
+      "name": {
+        "en": "Sandwiches",
+        "ar": "الساندويشات"
+      }
+    },
+    {
+      "id": "crispy-meals",
+      "order": 3,
+      "name": {
+        "en": "Crispy Meals",
+        "ar": "وجبات الكرسبي"
+      }
+    },
+    {
+      "id": "extras",
+      "order": 4,
+      "name": {
+        "en": "Fries & Extras",
+        "ar": "البطاطا والإضافات"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "charcoal-chicken",
+      "categoryId": "grilled-chicken",
+      "order": 1,
+      "name": {
+        "en": "Charcoal Chicken",
+        "ar": "فروج فحم"
+      },
+      "price": "1,400,000 L.L.",
+      "description": {
+        "en": "Delicious charcoal-grilled whole chicken.",
+        "ar": "فروج مشوي على الفحم طازج ولذيذ."
+      },
+      "image": "/data/images/grilled-chicken.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "safayen-chicken",
+      "categoryId": "grilled-chicken",
+      "order": 2,
+      "name": {
+        "en": "Chicken Breast (Safayen)",
+        "ar": "فروج سفاين"
+      },
+      "price": "1,700,000 L.L.",
+      "description": {
+        "en": "Grilled boneless chicken breasts.",
+        "ar": "فروج سفاين مشوي طازج ولذيذ."
+      },
+      "image": "/data/images/grilled-chicken.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "half-chicken",
+      "categoryId": "grilled-chicken",
+      "order": 3,
+      "name": {
+        "en": "Half Chicken",
+        "ar": "نص فروج"
+      },
+      "price": "750,000 L.L.",
+      "description": {
+        "en": "Half a charcoal-grilled chicken.",
+        "ar": "نصف فروج مشوي على الفحم."
+      },
+      "image": "/data/images/grilled-chicken.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "half-safayen",
+      "categoryId": "grilled-chicken",
+      "order": 4,
+      "name": {
+        "en": "Half Chicken Breast",
+        "ar": "نص فروج سفاين"
+      },
+      "price": "900,000 L.L.",
+      "description": {
+        "en": "Half grilled boneless chicken breasts.",
+        "ar": "نصف فروج سفاين مشوي طازج."
+      },
+      "image": "/data/images/grilled-chicken.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "wings-meal",
+      "categoryId": "grilled-chicken",
+      "order": 5,
+      "name": {
+        "en": "Wings Meal",
+        "ar": "وجبة جوانح"
+      },
+      "price": "750,000 L.L.",
+      "description": {
+        "en": "Grilled chicken wings meal.",
+        "ar": "وجبة جوانح دجاج مشوية لذيذة."
+      },
+      "image": "/data/images/grilled-chicken.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "thighs-meal",
+      "categoryId": "grilled-chicken",
+      "order": 6,
+      "name": {
+        "en": "Thighs Meal",
+        "ar": "وجبة فخاذ"
+      },
+      "price": "750,000 L.L.",
+      "description": {
+        "en": "Grilled chicken thighs meal.",
+        "ar": "وجبة فخاذ دجاج مشوية لذيذة."
+      },
+      "image": "/data/images/grilled-chicken.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "large-chicken-sandwich",
+      "categoryId": "sandwiches",
+      "order": 1,
+      "name": {
+        "en": "Large Chicken Sandwich",
+        "ar": "ساندويش دجاج كبير"
+      },
+      "price": "500,000 L.L.",
+      "description": {
+        "en": "A large, hearty chicken sandwich.",
+        "ar": "ساندويش دجاج كبير وشهي."
+      },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "small-chicken-sandwich",
+      "categoryId": "sandwiches",
+      "order": 2,
+      "name": {
+        "en": "Small Chicken Sandwich",
+        "ar": "ساندويش دجاج صغير"
+      },
+      "price": "350,000 L.L.",
+      "description": {
+        "en": "A small, delicious chicken sandwich.",
+        "ar": "ساندويش دجاج صغير ولذيذ."
+      },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "large-cut-meal",
+      "categoryId": "sandwiches",
+      "order": 3,
+      "name": {
+        "en": "Large Sliced Meal",
+        "ar": "وجبة مقطع كبير"
+      },
+      "price": "750,000 L.L.",
+      "description": {
+        "en": "Large sliced chicken sandwich meal.",
+        "ar": "وجبة ساندويش دجاج مقطع حجم كبير."
+      },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "small-cut-meal",
+      "categoryId": "sandwiches",
+      "order": 4,
+      "name": {
+        "en": "Small Sliced Meal",
+        "ar": "وجبة مقطع صغير"
+      },
+      "price": "500,000 L.L.",
+      "description": {
+        "en": "Small sliced chicken sandwich meal.",
+        "ar": "وجبة ساندويش دجاج مقطع حجم صغير."
+      },
+      "image": "/data/images/tawook.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "12-piece-crispy",
+      "categoryId": "crispy-meals",
+      "order": 1,
+      "name": {
+        "en": "12 Piece Crispy",
+        "ar": "وجبة كرسبي 12 قطعة"
+      },
+      "price": "1,800,000 L.L.",
+      "description": {
+        "en": "A 12 piece crispy chicken meal.",
+        "ar": "وجبة دجاج كرسبي مقرمش 12 قطعة."
+      },
+      "image": "/data/images/12-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "6-piece-crispy",
+      "categoryId": "crispy-meals",
+      "order": 2,
+      "name": {
+        "en": "6 Piece Crispy",
+        "ar": "وجبة كرسبي 6 قطع"
+      },
+      "price": "900,000 L.L.",
+      "description": {
+        "en": "A 6 piece crispy chicken meal.",
+        "ar": "وجبة دجاج كرسبي مقرمش 6 قطع."
+      },
+      "image": "/data/images/8-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "3-piece-crispy",
+      "categoryId": "crispy-meals",
+      "order": 3,
+      "name": {
+        "en": "3 Piece Crispy",
+        "ar": "وجبة كرسبي 3 قطع"
+      },
+      "price": "600,000 L.L.",
+      "description": {
+        "en": "A 3 piece crispy chicken meal.",
+        "ar": "وجبة دجاج كرسبي مقرمش 3 قطع."
+      },
+      "image": "/data/images/3-piece-crispy.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "fries-large",
+      "categoryId": "extras",
+      "order": 1,
+      "name": {
+        "en": "Large Fries",
+        "ar": "علبة بطاطا كبيرة"
+      },
+      "price": "400,000 L.L.",
+      "description": {
+        "en": "A large portion of crispy golden fries.",
+        "ar": "علبة بطاطا مقلية ذهبية حجم كبير."
+      },
+      "image": "/data/images/large-fries.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "fries-small",
+      "categoryId": "extras",
+      "order": 2,
+      "name": {
+        "en": "Small Fries",
+        "ar": "علبة بطاطا صغيرة"
+      },
+      "price": "250,000 L.L.",
+      "description": {
+        "en": "A small portion of crispy golden fries.",
+        "ar": "علبة بطاطا مقلية ذهبية حجم صغير."
+      },
+      "image": "/data/images/small-fries.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "pepsi",
+      "categoryId": "extras",
+      "order": 3,
+      "name": {
+        "en": "Pepsi",
+        "ar": "بيبسي"
+      },
+      "price": "100,000 L.L.",
+      "description": {
+        "en": "A cold Pepsi soft drink.",
+        "ar": "مشروب بيبسي بارد."
+      },
+      "image": "/data/images/pepsi.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "laban",
+      "categoryId": "extras",
+      "order": 4,
+      "name": {
+        "en": "Laban",
+        "ar": "لبن"
+      },
+      "price": "100,000 L.L.",
+      "description": {
+        "en": "A cold bottle of laban.",
+        "ar": "عبوة لبن باردة."
+      },
+      "image": "/data/images/ayran.avif",
+      "isAvailable": true
+    },
+    {
+      "id": "water",
+      "categoryId": "extras",
+      "order": 5,
+      "name": {
+        "en": "Water",
+        "ar": "ماء"
+      },
+      "price": "50,000 L.L.",
+      "description": {
+        "en": "A cold bottle of water.",
+        "ar": "عبوة مياه باردة."
+      },
+      "image": "/data/images/water-1.avif",
+      "isAvailable": true
+    }
+  ]
+}
